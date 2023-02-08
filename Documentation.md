@@ -12,7 +12,7 @@ fn functionName(arg1/dataType1, arg2/dataType2, ...) returnDataType {
 }
 ```
 For example, the following is a function that adds two integers and returns the result:
-```java
+```rust
 fn add(a/int, b/int) int {
     return a + b;
 }
@@ -25,7 +25,7 @@ The syntax for a one-statement function is:
 
 For example, the following is a one-statement function that adds two integers and returns the result:
 
-```java
+```rust
 fn add(a/int, b/int) int => return a + b;
 ```
 
@@ -54,7 +54,7 @@ Custom types are planned.
 A function can return a value using the return keyword followed by an expression. The expression must match the return data type specified in the function definition.
 
 For example, the following function returns an integer:
-```java
+```rust
 fn add(a/int, b/int) int {
     return a + b;
 }
@@ -70,7 +70,7 @@ The syntax for declaring an external function is:
 `extern fn functionName returnDataType;`
 
 For example, the following brings in `printf` which allows us to print into the console.
-```java
+```rust
 extern fn printf int;
 ```
 
