@@ -1,7 +1,7 @@
-#Introduction
+# Introduction
 Mythos is a general-purpose, statically-typed, compiled programming language. It features functions, types, returns, blocks, and a grammar that makes it easy for developers to write and understand code.
 
-#Functions
+# Functions
 In Mythos, a function can be defined using the `fn` keyword. The function definition consists of the function name, arguments, and the code block that implements the function.
 
 The syntax for a function definition is:
@@ -35,7 +35,7 @@ Here's an additional example that will print a string with a new line:
 fn print(text/string) => printf("%s\n", text);
 ```
 
-#Types
+# Types
 
 In Mythos, there are several built-in data types: `int`, `string`, `null`, and `bool`.
 
